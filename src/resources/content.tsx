@@ -62,7 +62,7 @@ const home: Home = {
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Building bridges between design and code</>,
   featured: {
-    display: true,
+    display: false, //to on the feature bubble shortcut
     title: (
       <Row gap="12" vertical="center">
         <strong className="ml-4">Once UI</strong>{" "}
@@ -76,7 +76,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Haris, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+    I'm Haris, a front end developer learner at <Text as="span" size="xl" weight="strong">dibimbing.id</Text>, I focus on creating responsive interfaces <br /> using modern technologies like React and Next.js In my spare time, I work on personal projects to sharpen my skills and explore new tools in web development.
 </>
   ),
 };

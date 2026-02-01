@@ -30,24 +30,25 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   avatars,
   link,
 }) => {
-  return (
-    <Column fillWidth gap="m">
-      <Carousel
-        sizes="(max-width: 960px) 100vw, 960px"
-        items={images.map((image) => ({
-          slide: image,
-          alt: title,
-        }))}
-      />
-      <Flex
-        s={{ direction: "column" }}
-        fillWidth
-        paddingX="s"
-        paddingTop="12"
-        paddingBottom="24"
-        gap="l"
-      >
-        {title && (
+  // return (
+    // <Column fillWidth gap="m">
+    //   <Carousel
+    //     sizes="(max-width: 960px) 100vw, 960px"
+    //     items={images.map((image) => ({
+    //       slide: image,
+    //       alt: title,
+    //     }))}
+    //   />
+    //   <Flex
+    //     s={{ direction: "column" }}
+    //     fillWidth
+    //     paddingX="s"
+    //     paddingTop="12"
+    //     paddingBottom="24"
+    //     gap="l"
+    //   >
+        // {
+          /* {title && (
           <Flex flex={5}>
             <Heading as="h2" wrap="balance" variant="heading-strong-xl">
               {title}
@@ -83,8 +84,9 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
               )}
             </Flex>
           </Column>
-        )}
-      </Flex>
-    </Column>
-  );
+        )} */
+      //  }
+  //     </Flex>
+  //   </Column>
+  // );
 };
